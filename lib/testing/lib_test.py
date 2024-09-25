@@ -12,7 +12,7 @@ class TestNameError:
         contains defined name "hello_world"
         '''
 
-        runpy.run_path('lib/a_name_error.py')
+        runpy.run_path('a_name_error.py')
 
 class TestSyntaxError:
     '''
@@ -24,7 +24,7 @@ class TestSyntaxError:
         multiplies two numbers
         '''
         
-        runpy.run_path('lib/a_syntax_error.py')
+        runpy.run_path('a_syntax_error.py')
 
 class TestTypeError:
     '''
@@ -36,7 +36,7 @@ class TestTypeError:
         adds two numbers
         '''
         
-        runpy.run_path('lib/a_type_error.py')
+        runpy.run_path('a_type_error.py')
 
 class TestAssertionError:
     '''
@@ -48,4 +48,4 @@ class TestAssertionError:
         evaluates two equal values
         '''
         
-        runpy.run_path('lib/an_assertion_error.py')
+        runpy.run_path('an_assertion_error.py')
